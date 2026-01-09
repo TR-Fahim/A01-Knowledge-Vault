@@ -189,6 +189,9 @@ nav .menu a:hover{
     display: flex;
     gap: 60px;
 }
+#brain .brain-frame .brain-photo img{
+    border-radius: 12px;
+}
 #brain .brain-frame .brain-content{
     padding: 102px;
 
@@ -228,6 +231,8 @@ nav .menu a:hover{
 #early-access .section-frame{
     padding: 80px 40px;
     background-color: #F7F6F2;
+    border: none;
+    border-radius: 12px;
 
 }
 #early-access .section-frame .invite-msg h3{
