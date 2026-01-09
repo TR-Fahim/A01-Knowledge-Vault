@@ -16,17 +16,17 @@
     color: #FFFFFF;
     font-size: 16px;
     font-weight: 600;
-    cursor: pointer;
-    
-
+    cursor: pointer;  
 }
-
 .icon-bg{
     background-color: #F95555;
     border: none;
     border-radius: 50%;
     padding: 10px;
 
+}
+.color-green{
+    color: #30B868;
 }
 
 /* main style */
@@ -163,7 +163,7 @@ nav .menu a{
     gap: 60px;
 }
 #brain .brain-frame .brain-content{
-    padding: 120px;
+    padding: 102px;
 
 }
 #brain .brain-frame .brain-content .head{
@@ -195,6 +195,35 @@ nav .menu a{
     padding-bottom: 16px;
 
 }
+#early-access{
+    padding: 2px 120px 120px;
+}
+#early-access .section-frame{
+    padding: 80px 40px;
+    background-color: #F7F6F2;
 
+}
+#early-access .section-frame .invite-msg h3{
+    font-size: 40px;
+    font-weight: bold;
+    color: #001931;
+    text-align: center;
+}
+#early-access .section-frame .invite-msg p{
+    font-size: 16px;
+    color: #627382;
+    text-align: center;
+    padding-top: 16px;
+
+}
+#early-access .section-frame .access-area{
+    margin-top: 24px;
+    text-align: center;
+}
+#early-access .section-frame .access-area p{
+    padding-top: 16px;
+    font-size: 16px;
+    color: #627382;
+}
 
 
