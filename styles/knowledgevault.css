@@ -55,9 +55,8 @@ nav .menu a{
     
 }
 nav .menu a:hover{
-    width: 40%;
     background: #30B868;
-    border-radius: 999px;
+    border-radius: 2px;
     color: #000000;
 }
 #banner{
@@ -276,6 +275,11 @@ footer{
     background-color: #FFFFFF;
     border: 3px solid #FFFFFF;
     border-radius: 50%;
+}
+#social .social-link .social-icon li:hover{
+    color: #FFFFFF;
+    background: #30B868;
+    border: 3px solid #30B868;
 }
 #copyright{
     
