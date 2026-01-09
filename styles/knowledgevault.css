@@ -81,14 +81,12 @@ nav .menu a{
 
 }
 #btn2{
-    /* max-width: 229px; */
     background-color: #FFFFFF;
     border: none;
     border-radius: 1000px;
     padding: 12px 16px;
     color: #469165;
     font-size: 16px;
-    font-weight: 600;
     cursor: pointer;
     margin: 0 auto 16px;
 }
@@ -225,5 +223,37 @@ nav .menu a{
     font-size: 16px;
     color: #627382;
 }
-
-
+footer{
+    padding: 120px 120px 30px;
+    background-color: #001931;
+}
+#social{
+    display: flex;
+    justify-content: space-between;
+}
+#social .social-link p{
+    font-size: 20px;
+    color: #FFFFFF;
+}
+#social .social-link .social-icon{
+    display: flex;
+    padding-top: 16px;
+    gap: 16px;
+}
+#social .social-link .social-icon li{
+    list-style-type: none;
+    color: #001931;
+    background-color: #FFFFFF;
+    border: 0;
+    border-radius: 50%;
+}
+#copyright{
+    
+    text-align: center;
+    padding-top: 80px;
+}
+#copyright p{
+    color: #FAFAFA;
+    font-size: 16px;
+    padding-top: 30px;
+}
