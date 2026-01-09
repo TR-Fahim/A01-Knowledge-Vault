@@ -18,6 +18,11 @@
     font-weight: 600;
     cursor: pointer;  
 }
+.btn:hover{
+    background: #FFFFFF;
+    color: #469165;
+    border: 2px solid #469165;
+}
 .icon-bg{
     background-color: #F95555;
     border: none;
@@ -44,6 +49,13 @@ nav .menu {
 }
 nav .menu a{
     text-decoration: none;
+    color: #000000;
+    
+}
+nav .menu a:hover{
+    width: 40%;
+    background: #30B868;
+    border-radius: 999px;
     color: #000000;
 }
 #banner{
@@ -111,6 +123,11 @@ nav .menu a{
     font-weight: 600;
     cursor: pointer;
     margin-left: 16px;
+}
+#banner .banner-content .btn3:hover{
+    background: #469165;
+    color: #FFFFFF;
+    border: none;
 }
 #notes{
     padding: 0 120px;
@@ -253,7 +270,7 @@ footer{
 }
 #social .social-link .social-icon li{
     list-style-type: none;
-    color: #001931;
+    color: #000000;
     background-color: #FFFFFF;
     border: 3px solid #FFFFFF;
     border-radius: 50%;
