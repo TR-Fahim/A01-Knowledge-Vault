@@ -16,7 +16,9 @@
     color: #FFFFFF;
     font-size: 16px;
     font-weight: 600;
-    cursor: pointer;  
+    cursor: pointer; 
+    align-items: center;
+    justify-items: center; 
 }
 .btn:hover{
     background: #FFFFFF;
@@ -160,7 +162,7 @@ nav .menu a:hover{
 #notes .about-info .info-card{
     max-width: 300px;
     border-radius: 4px;
-    box-shadow: 0px 0px 8px 0px #000000;
+    box-shadow: 0 8px 24px #cecece;
     margin: 0 auto;
 
 }
