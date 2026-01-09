@@ -53,6 +53,7 @@ nav .menu a{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    /* padding: 70px 120px 134px; */
 
 }
 #banner .banner-content{
@@ -80,6 +81,7 @@ nav .menu a{
 
 }
 #btn2{
+    /* max-width: 229px; */
     background-color: #FFFFFF;
     border: none;
     border-radius: 1000px;
@@ -100,6 +102,9 @@ nav .menu a{
     font-weight: 600;
     cursor: pointer;
     margin-left: 16px;
+}
+#notes{
+    padding: 0 120px;
 }
 #notes .notes-content .section-heading h2{
     padding-top: 64px;
@@ -149,3 +154,47 @@ nav .menu a{
     text-align: center;
     padding: 16px 24px 70px;
 }
+#brain{
+    padding: 120px 120px;
+    
+}
+#brain .brain-frame{
+    display: flex;
+    gap: 60px;
+}
+#brain .brain-frame .brain-content{
+    padding: 120px;
+
+}
+#brain .brain-frame .brain-content .head{
+    font-size: 16px;
+    font-weight: 500;
+    color: #469165;
+}
+#brain .brain-frame .brain-content h2{
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+    padding-top: 16px;
+
+}
+#brain .brain-frame .brain-content .main-para{
+    font-size: 16px;
+    color: #627382;
+    padding-top: 16px;
+}
+#brain .brain-frame .brain-content .the-list{
+    padding-top: 40px;
+}
+#brain .brain-frame .brain-content .bullet-points{
+    gap: 6px;
+    display:flex;
+    font-size: 16px;
+    color: #001931;
+    list-style-type: none;
+    padding-bottom: 16px;
+
+}
+
+
+
