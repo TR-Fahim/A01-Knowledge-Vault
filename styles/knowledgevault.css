@@ -287,7 +287,7 @@ footer{
     border: 3px solid #30B868;
 }
 #copyright{
-    
+    /* box-shadow: 0 -1px 0 0 #FFFFFF; */
     text-align: center;
     padding-top: 80px;
 }
@@ -295,4 +295,5 @@ footer{
     color: #FAFAFA;
     font-size: 16px;
     padding-top: 30px;
+    box-shadow: 0 -0.5px 0 0 #FFFFFF;
 }
